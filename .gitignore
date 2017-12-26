@@ -38,3 +38,9 @@ doc/
 
 # Ignore Byebug command history file.
 .byebug_history
+
+custom_plan.rb
+zeus.json
+
+# Ignore tmp or time file
+spec/_spec_helper.rb

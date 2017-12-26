@@ -67,6 +67,15 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
+  # And updates gems when needed
+  gem 'guard-bundler', require: false
+  # And auto starts rails server
+  gem 'guard-rails'
+  # And auto runs migrations
+  gem 'guard-migrate'
+
+  gem 'guard-zeus'
 end
 
 group :doc do
